@@ -5,7 +5,7 @@ module "frontend" {
   OD_INSTANCE_COUNT = var.OD_INSTANCE_COUNT
   SPOT_INSTANCE_COUNT = var.SPOT_INSTANCE_COUNT
   COMPONENT           = "frontend"
-  PORT                = 8080
+  PORT                = 80
   IS_PRIVATE_LB        = false
   LB_RULE_PRIORITY     = 102
 
